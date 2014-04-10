@@ -26,7 +26,11 @@ public class Animation {
 		}
 	}
 	
+<<<<<<< HEAD
 	public synchronized void addFrame(Image image, long duration) {
+=======
+	public synchronized void addFramme(Image image, long duration) {
+>>>>>>> bedf4cb1ec98157f7247c99434185811806b38f8
 		totalDuration += duration;
 		frames.add(new AnimFrame(image, totalDuration));
 	}
@@ -44,6 +48,7 @@ public class Animation {
 		}
 	}
 	
+<<<<<<< HEAD
 	public synchronized Image getImage(){
 		if (frames.size() == 0){
 			return null;
@@ -65,4 +70,6 @@ public class Animation {
 			this.endTime = endTime;
 		}
 	}
+=======
+>>>>>>> bedf4cb1ec98157f7247c99434185811806b38f8
 }
